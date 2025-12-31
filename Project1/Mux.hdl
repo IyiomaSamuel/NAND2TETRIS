@@ -7,8 +7,8 @@ CHIP Mux {
     OUT out;
 
     PARTS:
-    Not(in =sel, out =temp1);
-    And(a =a, b =temp1, out =temp2);
-    And(a =b, b= sel, out =temp3);
-    Or(a =temp2, b =temp3, out = out);
+    Not(in =sel, out =Notsel);
+    And(a =a, b =Notsel, out =aAndNotsel);
+    And(a =b, b= sel, out =aAndsel);
+    Or(a =aAndNotsel, b =aAndsel, out = out);
 }
