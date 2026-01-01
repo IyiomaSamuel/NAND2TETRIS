@@ -18,7 +18,7 @@ DMux4Way
 DMux8Way
 Chip parts built in the project can be used to build chips later on in the project.
 
-Project 2(Ongoing), Using the gates built in project 1 construct the followingn chips:
+Project 2(Ongoing), Using the gates built in project 1 construct the following chips:
 HalfAdder
 FullAdder
 Add16
